@@ -40,5 +40,14 @@ public class Main {
         System.out.println(weightDifferenceBoxers +"кг");
         var weightDifferenceBoxers2 =weightSecondBoxer % weightFirstBoxer;
         System.out.println(weightDifferenceBoxers2 +"кг");
+        var hoursWork = 640;
+        var hoursWorkOneWorker = 8;
+        var totalWorkers = hoursWork / hoursWorkOneWorker;
+        System.out.println("Всего работников в компании -" +totalWorkers +"человек");
+        totalWorkers = totalWorkers + 94;
+        hoursWork = totalWorkers * hoursWorkOneWorker;
+        System.out.println("Если в компании работает -" +totalWorkers +"человек, то всего" +hoursWork +"часов работы может быть поделено между сотрудниками");
+
+
     }
 }
