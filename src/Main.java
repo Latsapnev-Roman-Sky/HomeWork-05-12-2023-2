@@ -38,5 +38,7 @@ public class Main {
         System.out.println(weightTwoBoxers +"кг");
         var weightDifferenceBoxers = weightSecondBoxer - weightFirstBoxer;
         System.out.println(weightDifferenceBoxers +"кг");
+        var weightDifferenceBoxers2 =weightSecondBoxer % weightFirstBoxer;
+        System.out.println(weightDifferenceBoxers2 +"кг");
     }
 }
